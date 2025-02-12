@@ -2,7 +2,7 @@ import requests
 import os
 from dotenv import load_dotenv
 
-# Загружаем API-ключ из .env (если используешь .env)
+# Загружаем API-ключ из .env
 load_dotenv()
 FOURSQUARE_API_KEY = os.getenv("FOURSQUARE_API_KEY", "fsq3EAVXJ0jBd53zV/fwdP1u0LmMgD6G0TZ4MLIT64aBTVo=")
 
